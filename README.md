@@ -2,16 +2,16 @@
 
 Click the button below to deploy on Heroku!
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/repo-4-buttons)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/repo-2)
 
 ## Deploy in your VPS
 ````bash
-git clone https://github.com/IndomieGorengSatu/repo-4-buttons
-cd repo-4-buttons
+git clone https://github.com/IndomieGorengSatu/repo-2
+cd repo-2
 pip3 install -r requirements.txt
 cp sample_config.env config.env
 # edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
-# gunakan CTRL + X untuk keluar dan kembali ke direktori 2-subs-ch-gc
+# gunakan CTRL + X untuk keluar dan kembali ke direktori repo-2
 bash start
 ````
 
@@ -19,7 +19,7 @@ bash start
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/IndomieGorengSatu/repo-4-buttons&branch=develop&name=repo-4-buttons)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/IndomieGorengSatu/repo-2&branch=koyeb&name=repo-2-buttons)
 
 <details>
 <summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
