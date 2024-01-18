@@ -37,7 +37,7 @@ name ="""
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            "Bot",
+            name="Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={"root": "plugins"},
