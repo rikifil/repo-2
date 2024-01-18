@@ -15,6 +15,7 @@ from config import (
 )
 from database.database import add_user, del_user, full_userbase, present_user
 from pyrogram import filters
+from pyrogram.enums import ParseMode
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
 from pyrogram.types import InlineKeyboardMarkup, Message
 
@@ -105,7 +106,7 @@ async def start_command(client: Bot, message: Message):
                 await msg.copy(
                     chat_id=message.from_user.id,
                     caption=caption,
-                    parse_mode="html",
+                    parse_mode=ParseMode.HTML,
                     protect_content=PROTECT_CONTENT,
                     reply_markup=reply_markup,
                 )
@@ -115,7 +116,7 @@ async def start_command(client: Bot, message: Message):
                 await msg.copy(
                     chat_id=message.from_user.id,
                     caption=caption,
-                    parse_mode="html",
+                    parse_mode=ParseMode.HTML,
                     protect_content=PROTECT_CONTENT,
                     reply_markup=reply_markup,
                 )
