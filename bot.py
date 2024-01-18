@@ -6,6 +6,7 @@ import sys
 from aiohttp import web
 from plugins import web_server
 from pyrogram import Client
+from pyrogram.enums import ParseMode
 from datetime import datetime
 
 from config import (
@@ -34,7 +35,7 @@ name ="""
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            "Bot",
+            name="Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={"root": "plugins"},
@@ -111,7 +112,7 @@ class Bot(Client):
             )
             sys.exit()
 
-        self.set_parse_mode("html")
+        self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/CodeXBotz")
         self.LOGGER(__name__).info(f""" \n\n       
 ░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
