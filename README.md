@@ -6,7 +6,7 @@ Click the button below to deploy on Heroku!
 
 ## Deploy in your VPS
 ````bash
-git clone https://github.com/IndomieGorengSatu/repo-2
+git clone https://github.com/rikifil/repo-2
 cd repo-2
 pip3 install -r requirements.txt
 cp sample_config.env config.env
