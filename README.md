@@ -6,8 +6,8 @@ Click the button below to deploy on Heroku!
 
 ## Deploy in your VPS
 ````bash
-git clone https://github.com/IndomieGorengSatu/repo-4-buttons
-cd repo-4-buttons
+git clone 
+cd 
 pip3 install -r requirements.txt
 cp sample_config.env config.env
 # edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
