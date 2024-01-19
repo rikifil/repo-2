@@ -19,7 +19,7 @@ bash start
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/IndomieGorengSatu/repo-2&branch=koyeb&name=repo-2-buttons)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rikifil/repo-2&branch=koyeb&name=repo-2-buttons)
 
 <details>
 <summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
