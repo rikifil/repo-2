@@ -2,7 +2,7 @@
 
 Click the button below to deploy on Heroku!
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/repo-2)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rikifil/repo-2/tree/koyeb)
 
 ## Deploy in your VPS
 ````bash
@@ -19,7 +19,7 @@ bash start
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/IndomieGorengSatu/repo-2&branch=koyeb&name=repo-2-buttons)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rikifil/repo-2&branch=koyeb&name=repo-2-buttons)
 
 <details>
 <summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
@@ -32,14 +32,14 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 * `OWNER` Masukan Username Telegram untuk Owner BOT
 * `CHANNEL_ID` Masukan ID Channel Untuk [Channel Database] contoh:- -100xxxxxxxx
 * `ADMINS` Masukan User ID untuk mendapatkan hak Admin di BOT
-* `START_MESSAGE` Opsional: Pesan /start memulai awalan ke bot, Gunakan <a href='https://github.com/IndomieGorengSatu/repo-4-buttons/blob/main/README.md#start_message'>format</a> parsemode HTML 
+* `START_MESSAGE` Opsional: Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML 
 * `FORCE_SUB_MESSAGE` Opsional: Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML
 * `FORCE_SUB_CHANNEL` Masukan ID dari Channel Untuk Wajib Subscribenya
 * `FORCE_SUB_GROUP` Masukan ID dari Group Untuk Wajib Subscribenya
 
 ### Extra Variables
 
-* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/IndomieGorengSatu/repo-4-buttons/blob/main/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
+* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan fillings untuk pemformatan (hanya untuk dokumen)
 * `DISABLE_CHANNEL_BUTTON` Masukan True untuk Nonaktifkan Tombol Berbagi Saluran, Default jika False
 
 ### Fillings
